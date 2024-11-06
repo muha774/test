@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* font-style: normal; */
+    font-family: sans-serif;
+}
+.section1{
+    padding-top:20px ;
+    padding-bottom: 20px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    
+
+    
+}
+@media (max-width:991px) {
+    .section1 .links{
+        display: none;
+    }
+    
+}
+.section1 .links{
+
+}
+  
+
+ ul.ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.section1 .links ul li{
+    
+    list-style: none;
+}
+.section1 .logo {
+   padding-left: 60px;
+   padding-right: 60px;
+   color: #fff;
+   font-size: 26px;
+}
+.section1 .links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.section1 .buttuns{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.section1 .buttuns button{
+    padding: 10px 14px;
+    border-radius: 8px;
+    background-color: rgb(76, 76, 247);
+    color: #fff;
+    border: none;
+
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+   /* .section2 .left{
+    flex-basis: 100%;
+   }    
+   .section2 .reght img{
+    padding-top: 20px;
+    
+   } */
+    .section2{
+        flex-direction: column-reverse;
+    }
+}
+.section2 .left{
+    align-items: center;
+    flex-basis: 45%;
+}
+.section2 h1{
+    font-size: 35px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.section2 p{
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.section2  .btn1{
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(76, 76, 247);
+}
+.section2 .btn2{
+    border-radius: 6px;
+  color:blue;
+  height: 40px;
+  width: 100px;
+  
+}
+.section2 .reght{
+    flex-basis: 45%;
+}
+.section2 .reght img{
+    width: 450px;
+    max-width: 100%;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.section3 .box1{
+    flex-basis: 45%;
+
+}
+.section3 .box2{
+    flex-basis: 45%;
+}
+ .section4{
+    display: flex;
+    padding: 60px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+ }
+ @media (max-width:767px) {
+    .section4 .box{
+         flex-basis: 100%;
+         padding-top: 10px;
+    } 
+    
+}
+ .section4 .box{
+    flex-basis: 30%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+ }
+ .section4 img{
+    width: 80px;
+
+ }
+ .work{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+.section5{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    border-radius: 6px;
+    border: 1px black;
+    flex-wrap: wrap;
+}
+.section5 .box1{
+    flex-basis: 30%;
+    
+}
+
+@media (max-width:767px) {
+    .section5 .box1{
+         flex-basis: 100%;
+         padding-top: 10px;
+         text-align: center;
+         margin-bottom: 15px;
+    } 
+    
+}
+.section5 .box1 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section5 p{
+    margin: 5px;
+    padding-bottom: 10px;
+}
+.section5 button{
+    border-radius: 6px;
+    width: 130px;
+    height: 30px;
+    color: #0a0acbb6;
+}
+.work2{
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 45%;
+}
+@media (max-width:767px) {
+    .work2{
+        flex-direction: column;
+    }
+    
+}
+.section7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+.section7 .box{
+    flex-basis: 30%;
+    align-items: center;
+}
+
+@media (max-width:991px) {
+    .section7 .box{
+        flex-basis: 100%;
+        padding-top: 10px;
+        text-align: center;
+        margin-bottom: 15px
+    }
+    
+}
+.section7 .box h2{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.section7 .box p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section7 .text{
+
+    display: flex;
+    padding-top: 20px;
+
+}
+.text h4{
+    flex-basis: 45%;
+}
+
+.section7 .box h1{
+    align-items: center;
+    padding-bottom: 20px;
+}
+.box button{
+    width: 190px;
+    height: 45px;
+    border-radius: 9px;
+    background-color: rgb(33, 59, 253);
+    color: #fff;
+}
+.section8{
+    display: flex;
+    background-color: #262761;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+@media (max-width:991px) {
+    .section8{
+        flex-direction: column;
+    }
+    
+}
+.section8 .left{
+    flex-basis: 45%;
+    color: #fff;
+    padding-left: 60px;
+}
+.section8 .left p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.section8 .right img{
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section8 .botton{
+    display: flex;
+    align-items: center;
+}
+.section8 .botton h4{
+    flex-basis: 45%;
+}
+.section8 .botton p{
+    flex-basis: 45%;
+
+}
+.section9{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section9 .top h1{
+   font-size: 35px;
+   font-weight: 16px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+.section9 .top p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.section9 .botton .btn1{
+    width: 190px;
+    border-radius: 9px;
+    height: 50px;
+    background-color: blue;
+    color: #fff;
+}
+.section9 .botton .btn2{
+    width: 190px;
+    border-radius: 9px;
+    height: 50px;
+    color: blue;
+}
+.section10{
+    display: flex;
+    justify-content: space-between;
+    background-color: #262761;
+    
+    color: #fff;
+    padding: 60px;
+}
+.section10 .box1, 
+.section10 .box2,
+.section10 .box3{
+    flex-basis: 20%;
+}
+.section10 .logo .btn1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    display: block;
+}
+.section10 .box1 ul li,
+.section10 .box2 ul li,
+.section10 .box3 ul li{
+ list-style: none;
+ margin-bottom: 10px;
+}
+.section10 .box1 h4,
+.section10 .box2 h4,
+.section10 .box3 h4{
+    margin-bottom: 20px;
+}
+.section10 .box3 p{
+    padding-bottom: 10px;
+}
